@@ -58,6 +58,7 @@ export function getMemosApi() {
       return (data?.data || []) as Memo[];
     })
     .catch((error) => {
+      console.error("get memo url err");
       console.error(error);
       return [] as Memo[];
     });
@@ -76,6 +77,8 @@ export function postBarkApi(content: string) {
       device_key: BARK_TOKEN,
     },
   }).catch((err) => {
+    
+    console.error("postBarkApi err");
     console.error(err?.response?.data || err?.response || err);
   });
 }
