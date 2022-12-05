@@ -16,7 +16,8 @@ const { FLOMO_AUTHORIZATION = "", BARK_TOKEN = "" } = process.env;
 if (!FLOMO_AUTHORIZATION) {
   throw new Error("No Secrets.");
 }else{
-  console.log('flomo authorization: ' + FLOMO_AUTHORIZATION);
+  console.log('flomo authorization is: ' + FLOMO_AUTHORIZATION);
+  
 }
 
 export function getMemosApi() {
