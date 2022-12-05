@@ -13,7 +13,7 @@
 然后在 fork 的仓库的 github setting 中配置 secrets 如下：
 
 ```
-BARK_TOKEN='xxx' // Bark App 的 key
+BARK_TOKEN='xxx' // Bark App 的 key （不是网址
 FLOMO_AUTHORIZATION='xxx' // FLOMO 的登录凭证，可以在 flomo 网页端里的随便一个接口的请求头里获取，格式为 ‘Bear xxxx’
 
 注意！ 并不是复制这两行代码填进去而是等号前面是名字，后面是值的形式。需要学习secrets的填写方式。
