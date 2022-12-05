@@ -1,5 +1,7 @@
 name: Flomo Reminder
-
+on:
+  schedule:
+    - cron: "10，15，20，30 * * * *"
 jobs:
   run_flomo_reminder:
     name: Run Flomo Reminder
