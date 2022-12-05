@@ -15,6 +15,8 @@
 ```
 BARK_TOKEN='xxx' // Bark App 的 key
 FLOMO_AUTHORIZATION='xxx' // FLOMO 的登录凭证，可以在 flomo 网页端里的随便一个接口的请求头里获取，格式为 ‘Bear xxxx’
+
+注意！ 并不是复制这两行代码填进去而是等号前面是名字，后面是值的形式。需要学习secrets的填写方式。
 ```
 
 Like this:
