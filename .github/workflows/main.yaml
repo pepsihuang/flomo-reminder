@@ -1,7 +1,7 @@
 name: Flomo Reminder
 on:
-  push:
-    branches: [ "main" ]
+  schedule:
+    - cron: "0 1,4,10 * * *"
     
 jobs:
   run_flomo_reminder:
